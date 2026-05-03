@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+runs/
+weights/*.pt
+weights/*.pth
+output/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Data (large files)
+data/images/
+data/images2/
+data/labels/
+data/train.txt
+data/train2.txt
+data/val.txt
+data/val2.txt
+data/test.txt
+data/test2.txt
+
+# Jupyter
+.ipynb_checkpoints/
